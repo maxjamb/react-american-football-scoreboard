@@ -6,7 +6,7 @@ const bottomRowComponents = (props) => {
     return (
         <div className="down">
             <h3 className="down__title">{title}</h3>
-            <div className="down_value">{value}</div>
+            <div className="down__value">{value}</div>
         </div>
     )
 };
