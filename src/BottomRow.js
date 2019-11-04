@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import BottomRowComponents from './Components/bottomRowComponents';
+import BottomRowComponents from './Components/BottomRowComponents';
 const BottomRow = () => {
   return (
     <div className="bottomRow">
