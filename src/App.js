@@ -9,21 +9,11 @@ function App() {
 const[homeScore, setHomeScore] = useState(0);
 const[awayScore, setAwayScore] = useState(0);
 
-const homeScoreTouchdown = () => {
-  setHomeScore(homeScore +7);
-}
+const homeScoreTouchdown = () => setHomeScore(homeScore +7);
+const homeScoreFieldGoal = () => setHomeScore(homeScore +3);
 
-const homeScoreFieldGoal = () => {
-  setHomeScore(homeScore +3);
-}
-
-const awayScoreTouchdown = () => {
-  setAwayScore(awayScore +7);
-}
-
-const awayScoreFieldGoal =() => {
-  setAwayScore(awayScore +3);
-}
+const awayScoreTouchdown = () => setAwayScore(awayScore +7);
+const awayScoreFieldGoal =() => setAwayScore(awayScore +3);
 
   return (
     <div className="container">
